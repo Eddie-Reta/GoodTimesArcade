@@ -1,0 +1,19 @@
+{
+  "name": "goodtimesarcade",
+  "version": "1.0.0",
+  "description": "Website for an arcade and bar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eddie-Reta/GoodTimesArcade.git"
+  },
+  "author": "Eduardo Reta Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eddie-Reta/GoodTimesArcade/issues"
+  },
+  "homepage": "https://github.com/Eddie-Reta/GoodTimesArcade#readme"
+}
