@@ -2,9 +2,14 @@
   "name": "goodtimesarcade",
   "version": "1.0.0",
   "description": "Website for an arcade and bar.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o ./assets/css ./assets/css",
+    "start": "npm run watch:all",
+    "watch:scss": "onchange \"./assets/css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/Eddie-Reta/GoodTimesArcade/issues"
   },
-  "homepage": "https://github.com/Eddie-Reta/GoodTimesArcade#readme"
+  "homepage": "https://github.com/Eddie-Reta/GoodTimesArcade#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "node-sass": "^6.0.1",
+    "onchange": "^7.0.0",
+    "parallelshell": "^3.0.1"
+  }
 }

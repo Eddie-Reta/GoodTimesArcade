@@ -1,7 +1,7 @@
 .jumbotron {
-    background-image: url(../img/astroArcade.jpeg);
-    background-size: cover;
-}
-.jumbotron > h1 {
-    font-family: 'Press Start 2P', cursive;
-}
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black; }
+  .jumbotron h1 {
+    font-family: "Press Start 2P", cursive;
+    z-index: 10; }

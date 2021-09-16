@@ -1,0 +1,20 @@
+// fonts
+$font-retro: 'Press Start 2P', cursive;
+// colors
+$color-red: #FF5D55;
+$color-blue: #3D8AF7;
+$color-header:  black;
+body {
+    //background-color: $color-darkGrey;
+}
+.jumbotron {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $color-header;
+   // background-image: linear-gradient(to bottom right, $color-red, $color-red, $color-blue);
+    // background-image: url(../img/astroArcade.jpeg);
+    h1 {
+    font-family: $font-retro;
+    z-index: 10;
+    }
+}
