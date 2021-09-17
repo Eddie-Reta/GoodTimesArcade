@@ -1,7 +1,13 @@
+body {
+  background-image: linear-gradient(to right, #3D8AF7, black, black, #6B25F6); }
+
 .jumbotron {
+  height: 40vh;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: black; }
-  .jumbotron h1 {
-    font-family: "Press Start 2P", cursive;
-    z-index: 10; }
+  background-color: black;
+  background-image: url(../img/astroArcade.jpeg); }
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  z-index: 10; }
